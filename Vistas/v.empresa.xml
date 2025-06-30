@@ -193,57 +193,57 @@
         <nombre>Contabilidad</nombre>
         <director>Alberto</director>
         <empleados>
-           <empleado COD="C01"></empleado>
-           <empleado COD="C02"></empleado>
-           <empleado COD="C03"></empleado>
+           <empleado CED="C01"></empleado>
+           <empleado CED="C02"></empleado>
+           <empleado CED="C03"></empleado>
         </empleados>
         <direccion>
-            <calle></calle>
-            <ciudad></ciudad>
-            <codigoPostal></codigoPostal>
-
+            <calle>Magallanes</calle>
+            <ciudad>Cartagena</ciudad>
+            <codigoPostal>30310</codigoPostal>
         </direccion>
     </departamento>
 
-    <departamento COD="">
-        <nombre></nombre>
-        <director></director>
+    <departamento CDD="L01">
+        <nombre>Limpieza</nombre>
+        <director>Martín</director>
         <empleados>
-           <empleado COD=""></empleado> 
+           <empleado CED="L01"></empleado>
+           <empleado CED="L02"></empleado>
+           <empleado CED="L03"></empleado>
         </empleados>
         <direccion>
-            <calle></calle>
-            <ciudad></ciudad>
-            <codigoPostal></codigoPostal>
-
+            <calle>Colombia</calle>
+            <ciudad>Zaragoza</ciudad>
+            <codigoPostal>50001</codigoPostal>
         </direccion>
     </departamento>
 
-    <departamento COD="">
-        <nombre></nombre>
-        <director></director>
+    <departamento CDD="P01">
+        <nombre>Producción</nombre>
+        <director>Carlos</director>
         <empleados>
-           <empleado COD=""></empleado> 
+           <empleado CED="P01"></empleado> 
         </empleados>
         <direccion>
-            <calle></calle>
-            <ciudad></ciudad>
-            <codigoPostal></codigoPostal>
-
+            <calle>JuanMiguelDeLaSantisimaTrinidad</calle>
+            <ciudad>Granada</ciudad>
+            <codigoPostal>18001</codigoPostal>
         </direccion>
     </departamento>
 
-    <departamento COD="">
-        <nombre></nombre>
-        <director></director>
+    <departamento COD="M01">
+        <nombre>Mantenimiento</nombre>
+        <director>Constantino</director>
         <empleados>
-           <empleado COD=""></empleado> 
+           <empleado CED="M01"></empleado>
+           <empleado CED="M02"></empleado>
+           <empleado CED="M03"></empleado>
         </empleados>
         <direccion>
-            <calle></calle>
-            <ciudad></ciudad>
-            <codigoPostal></codigoPostal>
-
+            <calle>Lavueltilla</calle>
+            <ciudad>Las Palmas De Gran Canaria</ciudad>
+            <codigoPostal>35001</codigoPostal>
         </direccion>
     </departamento>
 </departamentos>
