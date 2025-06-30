@@ -1,0 +1,47 @@
+<xml version="1.0" encoding="UTF-8"/>
+<?xml-stylesheet type="text/xsl" href="../Estilo/e.empresa.xsl"?>
+ <registroPersonal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Controladores/c.empresa.xsd">
+
+<empleados>
+
+</empleados>
+    <empleado COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+
+        <departamento></departamento>
+    </empleado>
+<consultores>
+    <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+</consultores>
+
+<departamentos>
+    <departamento COD="">
+        <nombre></nombre>
+        <director></director>
+        <empleados>
+            
+        </empleados>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <codigoPostal></codigoPostal>
+
+        </direccion>
+    </departamento>
+</departamentos>
+
+</registroPersonal>
