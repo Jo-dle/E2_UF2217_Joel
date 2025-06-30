@@ -84,11 +84,17 @@
                             <li>Código Postal: <xsl:value-of select="direccion/codigoPostal"/></li>
                         </ul>
                         <p><strong>Empleados:</strong></p>
-                        <ul>
-                            <xsl:for-each select="empleados/empleado">
-                                <li><xsl:value-of select="@CED"/></li>
-                            </xsl:for-each>
-                        </ul>
+<ul>
+    <xsl:for-each select="empleados/empleado">
+        <xsl:variable name="ced" select="@CED"/>
+        <xsl:for-each select="/registroPersonal/empleados/empleado[@CED=$ced]">
+            <li>
+                <xsl:value-of select="nombre"/> (<xsl:value-of select="@CED"/>)
+            </li>
+        </xsl:for-each>
+    </xsl:for-each>
+</ul>
+
                     </div>
                 </div>
             </xsl:for-each>
