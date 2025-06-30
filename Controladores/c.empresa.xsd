@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!--Restricciones Personalizadas-->
+    <xs:simpleType name="CEDType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}[0-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="CCDType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}[0-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="CDDType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}[0-9]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="sexoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[H][M]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="departamentoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Limpieza|Producción|Contabilidad|Mantenimiento"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="codigoPostType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{5}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--Elemento Raíz-->
+    <xs:element name="registroPersonal">
+        <xs:complexType>
+            <xs:sequence>
+                <!--Empleados-->
+                <xs:element name="empleados">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empleado">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="CED" type="CEDType"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="sexo" type="sexoType"/>
+                                        <xs:element name="contacto">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="email"/>
+                                                    <xs:element name="telefono"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="departamento" type="departamentoType"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="consultores">
+                    <xs:complexType>
+                        <xs:sequence>
+                         <xs:element name="consultor">
+                            <xs:complexType>
+                                <xs:sequence>
+                                 <xs:element name="CCD" type="CCDType"/>
+                                 <xs:element name="nombre" type="xs:string"/>
+                                 <xs:element name="sexo" type="sexoType"/>
+                                    <xs:element name="contacto">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="email" type="xs:string"/>
+                                                <xs:element name="telefono" type="xs:string"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                 <xs:element name="departamento" type="departamentoType"/>
+                                 <xs:element name="empresaExterna" type="xs:string"/>
+                                </xs:sequence>
+                           </xs:complexType>
+                         </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="departamentos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="departamento">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="CDD" type="CDDType"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="director" type="xs:string"/>
+                                        <xs:element name="empleados">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="empleado">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="CED" type="CEDType"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="direccion">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="calle" type="xs:string"/>
+                                                    <xs:element name="ciudad" type="xs:string"/>
+                                                    <xs:element name="codigoPostal" type="codigoPostType"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

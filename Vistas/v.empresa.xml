@@ -1,6 +1,6 @@
-<xml version="1.0" encoding="UTF-8"/>
-<?xml-stylesheet type="text/xsl" href="../Estilo/e.empresa.xsl"?>
- <registroPersonal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Controladores/c.empresa.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="../Estilo/e.empresa.xsl"?>-->
+<registroPersonal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Controladores/c.empresa.xsd">
 
 <empleados>
 
@@ -134,6 +134,7 @@
             <telefono>611116161</telefono>
         </contacto>
         <departamento>Limpieza</departamento>
+        <empresaExterna>Milipili.SA</empresaExterna>
     </consultor>
 
      <consultor CCD="M01">
@@ -144,6 +145,7 @@
             <telefono>622226626</telefono>
         </contacto>
         <departamento>Mantenimiento</departamento>
+        <empresaExterna>PCarreglos</empresaExterna>
     </consultor>
 
      <consultor CCD="P01">
@@ -154,6 +156,7 @@
             <telefono>633336636</telefono>
         </contacto>
         <departamento>Producción</departamento>
+        <empresaExterna>Lentes Y Cámaras</empresaExterna>
     </consultor>
 
      <consultor CCD="M02">
@@ -164,6 +167,7 @@
             <telefono>644446646</telefono>
         </contacto>
         <departamento>Mantenimiento</departamento>
+        <empresaExterna>La informática Y Tú</empresaExterna>
     </consultor>
 
      <consultor CCD="C01">
@@ -174,6 +178,7 @@
             <telefono>655556656</telefono>
         </contacto>
         <departamento>Contabilidad</departamento>
+        <empresaExterna>Números.SL</empresaExterna>
     </consultor>
 
      <consultor CCD="L02">
@@ -184,6 +189,7 @@
             <telefono>112233699</telefono>
         </contacto>
         <departamento>Limpieza</departamento>
+        <empresaExterna>Brillo Y Lejía</empresaExterna>
     </consultor>
 
 </consultores>
