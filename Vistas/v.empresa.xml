@@ -5,7 +5,7 @@
 <empleados>
 
 </empleados>
-    <empleado COD="C01">
+    <empleado CED="C01">
         <nombre>Alberto</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -17,7 +17,7 @@
         <departamento>Contabilidad</departamento>
     </empleado>
 
-    <empleado COD="M01">
+    <empleado CED="M01">
         <nombre>Juan</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -29,7 +29,7 @@
         <departamento>Mantenimiento</departamento>
     </empleado>
 
-    <empleado COD="C02">
+    <empleado CED="C02">
         <nombre>María</nombre>
         <sexo>M</sexo>
         <contacto>
@@ -41,7 +41,7 @@
         <departamento>Contabilidad</departamento>
     </empleado>
 
-    <empleado COD="P01">
+    <empleado CED="P01">
         <nombre>Lúcas</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -53,7 +53,7 @@
         <departamento>Producción</departamento>
     </empleado>
 
-    <empleado COD="C03">
+    <empleado CED="C03">
         <nombre>Juani</nombre>
         <sexo>M</sexo>
         <contacto>
@@ -77,7 +77,7 @@
         <departamento>Limpieza</departamento>
     </empleado>
 
-    <empleado COD="M02">
+    <empleado CED="M02">
         <nombre>Neftalí</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -89,7 +89,7 @@
         <departamento>Mantenimiento</departamento>
     </empleado>
 
-    <empleado COD="M03">
+    <empleado CED="M03">
         <nombre>Constantino</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -101,7 +101,7 @@
         <departamento>Mantenimiento</departamento>
     </empleado>
 
-    <empleado COD="L02">
+    <empleado CED="L02">
         <nombre>Rigoberto</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -113,7 +113,7 @@
         <departamento>Limpieza</departamento>
     </empleado>
 
-    <empleado COD="L03">
+    <empleado CED="L03">
         <nombre>Ana</nombre>
         <sexo>M</sexo>
         <contacto>
@@ -126,74 +126,76 @@
     </empleado>
     
 <consultores>
-    <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+    <consultor CCD="L01">
+        <nombre>Manuel</nombre>
+        <sexo>H</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Manuel@gmail.com</email>
+            <telefono>611116161</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Limpieza</departamento>
     </consultor>
 
-     <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+     <consultor CCD="M01">
+        <nombre>Isabel</nombre>
+        <sexo>M</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Isabel@gmail.com</email>
+            <telefono>622226626</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Mantenimiento</departamento>
     </consultor>
 
-     <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+     <consultor CCD="P01">
+        <nombre>Carlos</nombre>
+        <sexo>H</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Carlos@gmail.com</email>
+            <telefono>633336636</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Producción</departamento>
     </consultor>
 
-     <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+     <consultor CCD="M02">
+        <nombre>Amenariel</nombre>
+        <sexo>H</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Amenariel@gmail.com</email>
+            <telefono>644446646</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Mantenimiento</departamento>
     </consultor>
 
-     <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+     <consultor CCD="C01">
+        <nombre>Isobel</nombre>
+        <sexo>M</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Isobel@gmail.com</email>
+            <telefono>655556656</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Contabilidad</departamento>
     </consultor>
 
-     <consultor COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+     <consultor CCD="L02">
+        <nombre>Emueto</nombre>
+        <sexo>H</sexo>
         <contacto>
-            <email></email>
-            <telefono></telefono>
+            <email>Emueto@gmail.com</email>
+            <telefono>112233699</telefono>
         </contacto>
-        <departamento></departamento>
+        <departamento>Limpieza</departamento>
     </consultor>
 
 </consultores>
 
 <departamentos>
-    <departamento COD="">
-        <nombre></nombre>
-        <director></director>
+    <departamento CDD="C01">
+        <nombre>Contabilidad</nombre>
+        <director>Alberto</director>
         <empleados>
-           <empleado COD=""></empleado> 
+           <empleado COD="C01"></empleado>
+           <empleado COD="C02"></empleado>
+           <empleado COD="C03"></empleado>
         </empleados>
         <direccion>
             <calle></calle>
