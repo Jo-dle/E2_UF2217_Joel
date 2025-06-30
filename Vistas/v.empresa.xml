@@ -4,7 +4,6 @@
 
 <empleados>
 
-</empleados>
     <empleado CED="C01">
         <nombre>Alberto</nombre>
         <sexo>H</sexo>
@@ -65,7 +64,7 @@
         <departamento>Contabilidad</departamento>
     </empleado>
 
-    <empleado COD="L01">
+    <empleado CED="L01">
         <nombre>Martín</nombre>
         <sexo>H</sexo>
         <contacto>
@@ -124,8 +123,9 @@
 
         <departamento>Limpieza</departamento>
     </empleado>
+    </empleados>
     
-<consultores>
+ <consultores>
     <consultor CCD="L01">
         <nombre>Manuel</nombre>
         <sexo>H</sexo>
@@ -192,9 +192,9 @@
         <empresaExterna>Brillo Y Lejía</empresaExterna>
     </consultor>
 
-</consultores>
+ </consultores>
 
-<departamentos>
+ <departamentos>
     <departamento CDD="C01">
         <nombre>Contabilidad</nombre>
         <director>Alberto</director>
@@ -238,7 +238,7 @@
         </direccion>
     </departamento>
 
-    <departamento COD="M01">
+    <departamento CDD="M01">
         <nombre>Mantenimiento</nombre>
         <director>Constantino</director>
         <empleados>
@@ -252,6 +252,5 @@
             <codigoPostal>35001</codigoPostal>
         </direccion>
     </departamento>
-</departamentos>
-
+ </departamentos>
 </registroPersonal>
