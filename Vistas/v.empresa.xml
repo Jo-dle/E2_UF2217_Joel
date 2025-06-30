@@ -5,17 +5,126 @@
 <empleados>
 
 </empleados>
-    <empleado COD="">
-        <nombre></nombre>
-        <sexo></sexo>
+    <empleado COD="C01">
+        <nombre>Alberto</nombre>
+        <sexo>H</sexo>
         <contacto>
 
-            <email></email>
-            <telefono></telefono>
+            <email>Alberto@gmail.com</email>
+            <telefono>928112233</telefono>
         </contacto>
 
-        <departamento></departamento>
+        <departamento>Contabilidad</departamento>
     </empleado>
+
+    <empleado COD="M01">
+        <nombre>Juan</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>Juan@gmail.com</email>
+            <telefono>928223344</telefono>
+        </contacto>
+
+        <departamento>Mantenimiento</departamento>
+    </empleado>
+
+    <empleado COD="C02">
+        <nombre>María</nombre>
+        <sexo>M</sexo>
+        <contacto>
+
+            <email>María@gmail.com</email>
+            <telefono>928334455</telefono>
+        </contacto>
+
+        <departamento>Contabilidad</departamento>
+    </empleado>
+
+    <empleado COD="P01">
+        <nombre>Lúcas</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>Lúcas@gmail.com</email>
+            <telefono>928556677</telefono>
+        </contacto>
+
+        <departamento>Producción</departamento>
+    </empleado>
+
+    <empleado COD="C03">
+        <nombre>Juani</nombre>
+        <sexo>M</sexo>
+        <contacto>
+
+            <email>Juani@gmail.com</email>
+            <telefono>928667788</telefono>
+        </contacto>
+
+        <departamento>Contabilidad</departamento>
+    </empleado>
+
+    <empleado COD="L01">
+        <nombre>Martín</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>Martín@gmail.com</email>
+            <telefono>928778899</telefono>
+        </contacto>
+
+        <departamento>Limpieza</departamento>
+    </empleado>
+
+    <empleado COD="M02">
+        <nombre>Neftalí</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>NeftalíDeJesusEspino_123@gmail.com</email>
+            <telefono>636539657</telefono>
+        </contacto>
+
+        <departamento>Mantenimiento</departamento>
+    </empleado>
+
+    <empleado COD="M03">
+        <nombre>Constantino</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>Lantigua21@gmail.com</email>
+            <telefono>666666666</telefono>
+        </contacto>
+
+        <departamento>Mantenimiento</departamento>
+    </empleado>
+
+    <empleado COD="L02">
+        <nombre>Rigoberto</nombre>
+        <sexo>H</sexo>
+        <contacto>
+
+            <email>Rigoberto@gmail.com</email>
+            <telefono>928889911</telefono>
+        </contacto>
+
+        <departamento>Limpieza</departamento>
+    </empleado>
+
+    <empleado COD="L03">
+        <nombre>Ana</nombre>
+        <sexo>M</sexo>
+        <contacto>
+
+            <email>Ana@gmail.com</email>
+            <telefono>928223344</telefono>
+        </contacto>
+
+        <departamento>Limpieza</departamento>
+    </empleado>
+    
 <consultores>
     <consultor COD="">
         <nombre></nombre>
@@ -26,6 +135,57 @@
         </contacto>
         <departamento></departamento>
     </consultor>
+
+     <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+
+     <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+
+     <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+
+     <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+
+     <consultor COD="">
+        <nombre></nombre>
+        <sexo></sexo>
+        <contacto>
+            <email></email>
+            <telefono></telefono>
+        </contacto>
+        <departamento></departamento>
+    </consultor>
+
 </consultores>
 
 <departamentos>
@@ -33,7 +193,49 @@
         <nombre></nombre>
         <director></director>
         <empleados>
-            
+           <empleado COD=""></empleado> 
+        </empleados>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <codigoPostal></codigoPostal>
+
+        </direccion>
+    </departamento>
+
+    <departamento COD="">
+        <nombre></nombre>
+        <director></director>
+        <empleados>
+           <empleado COD=""></empleado> 
+        </empleados>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <codigoPostal></codigoPostal>
+
+        </direccion>
+    </departamento>
+
+    <departamento COD="">
+        <nombre></nombre>
+        <director></director>
+        <empleados>
+           <empleado COD=""></empleado> 
+        </empleados>
+        <direccion>
+            <calle></calle>
+            <ciudad></ciudad>
+            <codigoPostal></codigoPostal>
+
+        </direccion>
+    </departamento>
+
+    <departamento COD="">
+        <nombre></nombre>
+        <director></director>
+        <empleados>
+           <empleado COD=""></empleado> 
         </empleados>
         <direccion>
             <calle></calle>
